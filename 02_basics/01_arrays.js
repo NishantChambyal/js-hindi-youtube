@@ -6,7 +6,7 @@ const myHeros = ["Shaktiman", "nagraj"]
 const myArr2 = new Array(1,2,3,4)
 
 
-// console.log(myArr2);
+console.log(myArr2);
 
 
 // console.log(myArr[0]);
@@ -34,15 +34,15 @@ const myArr2 = new Array(1,2,3,4)
 
 // slice , splice
 
-console.log("A", myArr);
+// console.log("A", myArr);
 
-const myn1 = myArr.slice(1 , 3)   // starts from index 1 and goes till 2 not 3 because n-1
+// const myn1 = myArr.slice(1 , 3)   // starts from index 1 and goes till 2 not 3 because n-1
 
-console.log(myn1);
-console.log("B", myArr);
+// console.log(myn1);
+// console.log("B", myArr);
 
-const myn2 = myArr.splice(1,3)  // starts from 1 and goes till given index because its obbey n-1 rule and orginal array will menupulate also and left inside value which is not splice
-console.log(myn2);
-console.log("c", myArr);
+// const myn2 = myArr.splice(1,3)  // starts from 1 and goes till given index because its obbey n-1 rule and orginal array will menupulate also and left inside value which is not splice
+// console.log(myn2);
+// console.log("c", myArr);
 
 
