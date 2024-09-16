@@ -53,11 +53,37 @@ const user = [
     }
 ]
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));   // coverts object in array
+// console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "histesh"
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor: instructor} = course
+// const {courseInstructor} = course
+console.log(instructor);
+
+
+
+// {
+//     "name": "nishant",
+//     "coursename": "js in hindi",  // jason file
+//     "price", "free" 
+// }
+
+[
+    {},
+    {},
+    {},                           //api can be in array
+    {}
+]
