@@ -6,8 +6,8 @@ const dc_heros = ["superman", "flash" , "batman"]
 // console.log(marvelHeros);
 // console.log(marvelHeros[4][1]); // not a good sytax
 
-const allHeros = marvelHeros.concat(dc_heros)  // concat is the method which concat the array but not changing the existing array it returns a new  array
-// console.log(allHeros);
+const allHeros = marvelHeros.concat(dc_heros)  // Combines two or more arrays. This method returns a new array without modifying any existing arrays.
+// console.log(allHeros);            
 
 // console.log(marvelHeros);    
 // console.log(dc_heros);
@@ -20,7 +20,7 @@ const all_new_heros = [...marvelHeros , ...dc_heros]  // same as concat but this
 
 
 const another_array = [1 , 2 , 3 , [4,5,6] , 7 ,[6,7,[4,5]]]
-const real_another_array = another_array.flat(Infinity)
+const real_another_array = another_array.flat(Infinity)   //Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 console.log(real_another_array);
 
 console.log(Array.isArray("hitesh"));

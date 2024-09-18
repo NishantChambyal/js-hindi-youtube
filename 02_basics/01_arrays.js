@@ -32,7 +32,7 @@ const newArr  = myArr.join()    // converts into string  original array will not
 // console.log(newArr);
 
 
-// slice , splice
+// slice , splice   
 
 // console.log("A", myArr);
 
