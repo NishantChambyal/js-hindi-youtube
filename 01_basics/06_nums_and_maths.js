@@ -13,7 +13,7 @@ console.log(balance.toFixed(2));     // 100.00  only 2 precision value
 
 const otherNumber = 123.8966
 
-console.log(otherNumber.toPrecision(4));
+console.log(otherNumber.toPrecision(4)); // 124
 
 const hundreds = 1000000
 console.log(hundreds.toLocaleString("en-IN"));
