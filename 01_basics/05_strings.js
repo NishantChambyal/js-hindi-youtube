@@ -44,7 +44,7 @@ console.log(url.includes('sundar'));
 console.log(url.startsWith('https'));
 console.log(url.endsWith('ni'));
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-'));   // seprate the strigs based on (-)
 
 
 
