@@ -78,7 +78,7 @@ console.log(instructor);
 // {
 //     "name": "nishant",
 //     "coursename": "js in hindi",  // jason file
-//     "price", "free" 
+//     "price": "free" 
 // }
 
 [
