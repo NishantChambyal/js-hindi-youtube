@@ -22,7 +22,7 @@ const temperature = 41;
 
 // }
 
-// console.log(`user Power: ${power}`);
+// console.log(`user Power: ${power}`);  // cannot acess the power outside its scope
 
 // const balance = 1000
 
